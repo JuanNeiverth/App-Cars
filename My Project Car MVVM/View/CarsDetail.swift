@@ -19,11 +19,19 @@ struct CarsDetail: View {
                 
                 Text(cars.type)
                     .font(.title)
+                    .bold()
                     .multilineTextAlignment(.leading)
                     .padding(.bottom, 20.0)
                     
-                    
                 
+                Image(cars.image)
+                    .resizable()
+                    .scaledToFill()
+                    .cornerRadius(10)
+                    .padding(.bottom, 20.0)
+                    
+                    
+
                 Text(cars.description)
                     .font(.headline)
             }
