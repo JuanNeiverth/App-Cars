@@ -11,7 +11,7 @@ import SwiftUI
 struct My_Project_Car_MVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CarTabView()
         }
     }
 }

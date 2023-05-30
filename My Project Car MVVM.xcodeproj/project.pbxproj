@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4A96242A269167002BFC92 /* CarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A96232A269167002BFC92 /* CarTabView.swift */; };
 		0DB0B61D2A1FE38E00205180 /* My_Project_Car_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0B61C2A1FE38E00205180 /* My_Project_Car_MVVMApp.swift */; };
 		0DB0B61F2A1FE38E00205180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0B61E2A1FE38E00205180 /* ContentView.swift */; };
 		0DB0B6212A1FE39100205180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB0B6202A1FE39100205180 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4A96232A269167002BFC92 /* CarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTabView.swift; sourceTree = "<group>"; };
 		0DB0B6192A1FE38E00205180 /* My Project Car MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Project Car MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB0B61C2A1FE38E00205180 /* My_Project_Car_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Project_Car_MVVMApp.swift; sourceTree = "<group>"; };
 		0DB0B61E2A1FE38E00205180 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				0DB0B61E2A1FE38E00205180 /* ContentView.swift */,
 				0DB0B6372A1FE71400205180 /* CarsDetail.swift */,
+				0D4A96232A269167002BFC92 /* CarTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				0DB0B6322A1FE47400205180 /* CarsModel.swift in Sources */,
 				0DB0B6382A1FE71400205180 /* CarsDetail.swift in Sources */,
+				0D4A96242A269167002BFC92 /* CarTabView.swift in Sources */,
 				0DB0B61F2A1FE38E00205180 /* ContentView.swift in Sources */,
 				0DB0B6302A1FE3F600205180 /* Cars.swift in Sources */,
 				0DB0B61D2A1FE38E00205180 /* My_Project_Car_MVVMApp.swift in Sources */,
